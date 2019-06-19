@@ -1,13 +1,13 @@
 {
    "minVersion": "0.1",
    "class": "DepictionTabView",
-   "tintColor": "#2cb1be",
+   "tintColor": "Tint Color",
    "headerImage": "Header Image URL",
    "tabs": [
       {
          "tabname": "Details",
          "class": "DepictionStackView",
-         "tintColor": "#2cb1be",
+         "tintColor": "Tint Color",
          "views": [
             {
                "class": "DepictionSubheaderView",
@@ -86,21 +86,20 @@
       {
          "tabname": "Changelog",
          "class": "DepictionStackView",
-         "tintColor": "#2cb1be",
+         "tintColor": "Tint Color",
          "views": [
             {
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "First Released Version Number"
+               "title": "Version Number"
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "<ul>\n<li>Initial release.<\/li>\n<\/ul>",
+               "markdown": "<ul>\n<li>Version Changes<\/li>\n<\/ul>",
                "useRawFormat": true
             }
          ]
       }
    ]
 }
-

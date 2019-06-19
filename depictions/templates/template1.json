@@ -1,7 +1,7 @@
 {
   "minVersion": "0.1",
   "headerImage": "Header Image URL",
-  "tintColor": "#2cb1be",
+  "tintColor": "Tint Color",
   "tabs": [
     {
       "tabname": "Details",
@@ -76,19 +76,14 @@
       "tabname": "Changelog",
       "views": [
 		{
-          "title": "First Released Version Number",
+          "title": "Version Number",
           "useBoldText": true,
           "useBottomMargin": true,
           "class": "DepictionSubheaderView"
         },
         {
-          "markdown": "\t\n\u2022 Initial Release",
+          "markdown": "\t\n\u2022 Version Changes",
           "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released First Release Date</small>",
-          "useRawFormat": true,
           "class": "DepictionMarkdownView"
         }
       ],
